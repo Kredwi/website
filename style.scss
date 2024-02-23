@@ -118,6 +118,36 @@ ul {
     }
 }
 
+@media screen and (max-width: 420px) {
+    .bio-avatar {
+        height: 60vw;
+        width: 60vw;
+    }
+    .bio-text-h1 {
+        font-size: 5.7vw;
+    }
+    .bio-text {
+        font-size: 4.6vw;
+    }
+    .bio-container {
+        .typed-cursor {
+            font-size: 5vw;
+        }
+        .bio-typing {
+            font-size: 5vw;
+        }
+    }
+    .bio-status {
+        width: 85vw;
+        height: auto;
+    }
+    ul {
+        a {
+            font-size: 8vw;
+        }
+    }
+}
+
 @keyframes link-animation-hover {
     from {
         color: white;
