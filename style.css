@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to bottom, rgb(13, 13, 14), rgb(13, 13, 14), rgb(13, 13, 14), rgb(13, 13, 14), rgb(28, 28, 43));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+b {
+  font-weight: 700;
+}
+
+br {
+  padding: 0;
+  margin: 0;
+}
+
+.red {
+  color: red;
+}
+.red:hover {
+  animation: red-animation-hover-bord 1s ease 0s 1 alternate forwards;
+}
+.red:active {
+  animation: red-animation-active-bord 1s ease 0s 1 alternate forwards;
+}
+
+.purple:hover {
+  animation: purple-animation-hover-pink 1s ease 0s 1 alternate forwards;
+}
+.purple:active {
+  animation: purple-animation-active-pink 1s ease 0s 1 alternate forwards;
+}
+
+.bio-info {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(17, 17, 17, 0.24);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  width: 400px;
+  border-radius: 15px;
+}
+.bio-info * {
+  padding-top: 10px;
+}
+
+.bio-avatar {
+  height: 200px;
+  width: 200px;
+  padding: 3px;
+  border-radius: 150px;
+  border: 3px solid #2bb619;
+  animation: status-border 15s ease 0s infinite alternate forwards;
+}
+
+.bio-text-h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bio-text {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio-container {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.bio-container .typed-cursor {
+  display: inline-block;
+  padding-top: 16px;
+  padding-bottom: 2px;
+}
+.bio-container .bio-typing {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+  display: inline;
+}
+ul a {
+  color: white;
+  font-size: 24px;
+  font-family: "Bad Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+ul a:hover {
+  animation: link-animation-hover 1s ease 0s 1 alternate forwards;
+}
+ul a:active {
+  animation: link-animation-active 0.5s ease 0s 1 alternate forwards;
+}
+
+@keyframes link-animation-hover {
+  from {
+    color: white;
+  }
+  to {
+    color: #c4c4c4;
+  }
+}
+@keyframes link-animation-active {
+  from {
+    color: #c4c4c4;
+  }
+  to {
+    color: gray;
+  }
+}
+@keyframes red-animation-hover-bord {
+  from {
+    color: red;
+  }
+  to {
+    color: #d40000;
+  }
+}
+@keyframes purple-animation-hover-pink {
+  from {
+    color: purple;
+  }
+  to {
+    color: #b100a8;
+  }
+}
+@keyframes red-animation-active-bord {
+  from {
+    color: #d40000;
+  }
+  to {
+    color: #800000;
+  }
+}
+@keyframes purple-animation-active-pink {
+  from {
+    color: #b100a8;
+  }
+  to {
+    color: #c900bf;
+  }
+}
+@keyframes status-border {
+  0% {
+    border: 3px solid #2bb619;
+  }
+  30% {
+    border: 3px solid #ffa600;
+  }
+  60% {
+    border: 3px solid #ff0000;
+  }
+  100% {
+    border: 3px solid #2e2e2e;
+  }
+}
