@@ -32,7 +32,9 @@ br {
 .red:active {
   animation: red-animation-active-bord 1s ease 0s 1 alternate forwards;
 }
-
+.purple {
+  color: purple;
+}
 .purple:hover {
   animation: purple-animation-hover-pink 1s ease 0s 1 alternate forwards;
 }
@@ -169,7 +171,7 @@ ul a:active {
 }
 @keyframes purple-animation-hover-pink {
   from {
-    color: #9932CC;
+    color: purple;
   }
   to {
     color: #b100a8;
