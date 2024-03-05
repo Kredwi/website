@@ -169,7 +169,7 @@ ul a:active {
 }
 @keyframes purple-animation-hover-pink {
   from {
-    color: purple;
+    color: #9932CC;
   }
   to {
     color: #b100a8;
