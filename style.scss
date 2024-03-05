@@ -33,6 +33,7 @@ br {
     }
 }
 .purple {
+    color: purple;
     &:hover {
         animation: purple-animation-hover-pink 1s ease 0s 1 alternate forwards;
     }
