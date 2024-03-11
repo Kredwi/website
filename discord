@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#5865f2">
+    <meta name="description" content="Kredwi Official - Открытый Дискорд Сервер ютубера Kredwi">
+    <meta name="keywords" content="kredwi, kredvi, кредви, кредит, kredit, kredli, kred, ютубер, майнкрафтер, discord, server, kredwiofficial">
+    <link rel="shortcut icon" type="image/x-icon" href="logo.ico">
+    <title>Kredwi | Discord</title>
+    <meta property="twitter:image" content="https://gravatar.com/avatar/a77a4e4851f74dd401c0567966df96b8c963cc769b6aaed3f3f0028d2c1d0a39?s=128">
+    <meta property="og:image" content="https://gravatar.com/avatar/a77a4e4851f74dd401c0567966df96b8c963cc769b6aaed3f3f0028d2c1d0a39?s=128">
+    <script>
+        window.location.href = 'https://discord.gg/gN4MWwQzMQ';
+    </script>
+</head>
+<body>
+    <p>If you are not redirected to another page, please <a href="https://discord.gg/gN4MWwQzMQ">click here</a></p>
+</body>
+</html>
