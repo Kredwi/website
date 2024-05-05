@@ -19,7 +19,7 @@ const h1Words = [
     'Kredwi - Нубик в любой сфере'
 ]
 h1Bio.innerHTML = h1Words[Math.floor(Math.random() * (h1Words.length - 0) + 0)];
-setInterval(() => img.src = img.src, 3 * 60 * 1000);
+setInterval(() => img.src = img.src, 1 * 60 * 1000);
 // window.onload = function() {
 //     snowStorm.flakesMaxActive = 30;
 //     snowStorm.snowCharacter = '<i class="fas fa-snowflake"></i>';
