@@ -1,5 +1,6 @@
 "use strict";
 const h1Bio = document.getElementById('h1-bio');
+const img = document.querySelectorAll(".bio-status")[0];
 const typedCategory = new Typed('.bio-typing', {
     strings: [
         '<a href="https://www.youtube.com/channel/UCH-f_szwD2msRXhwMmePeiA" class="bio-text red" target="_blank"><i class="fab fa-youtube"> Ютубер</i></a>',
@@ -18,6 +19,7 @@ const h1Words = [
     'Kredwi - Нубик в любой сфере'
 ]
 h1Bio.innerHTML = h1Words[Math.floor(Math.random() * (h1Words.length - 0) + 0)];
+setInterval(() => img.src = img.src, 3 * 60 * 1000);
 // window.onload = function() {
 //     snowStorm.flakesMaxActive = 30;
 //     snowStorm.snowCharacter = '<i class="fas fa-snowflake"></i>';
