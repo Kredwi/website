@@ -5,7 +5,7 @@ const typedCategory = new Typed('.bio-typing', {
     strings: [
         '<a href="https://www.youtube.com/channel/UCH-f_szwD2msRXhwMmePeiA" class="bio-text red" target="_blank"><i class="fab fa-youtube"> Ютубер</i></a>',
         '<a href="https://www.twitch.tv/kredwi" class="bio-text purple" target="_blank"><i class="fab fa-twitch"> Стример</i></a>',
-        '🎮 Немного геймер'
+        '🎮 Немного геймер',
     ],
     typeSpeed: 150,
     backSpeed: 100,
@@ -16,7 +16,10 @@ const typedCategory = new Typed('.bio-typing', {
 const h1Words = [
     'Kredwi - Нубик в любой сфере',
     'Kredwi - Ну етить колотить!!',
-    'Kredwi - Нубик в любой сфере'
+    'Kredwi - Нубик в любой сфере',
+    '🤔 Шо как оно?',
+    '☝️ Вообще-то у меня есть новый сайт',
+    '🧐 А ты шо думал?'
 ]
 h1Bio.innerHTML = h1Words[Math.floor(Math.random() * (h1Words.length - 0) + 0)];
 setInterval(() => img.src = img.src, 1 * 60 * 1000);
